@@ -60,3 +60,32 @@ ul li img {
     height: auto; /* Mantém a proporção da imagem */
     margin-right: 10px; /* Espaço entre imagem e texto */
 }
+body {
+    font-family: 'New Rocker', cursive; /* Usando New Rocker para todo o corpo */
+    margin: 0;
+    padding: 0;
+    background-color: #d1beff;
+}
+
+header {
+    background-color: #6f10ff;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-family: 'New Rocker', cursive; /* Aplica a fonte ao cabeçalho */
+}
+
+h1 {
+    font-family: 'New Rocker', cursive; /* Aplica a fonte ao título */
+}
+
+h2, h3 {
+    font-family: 'New Rocker', cursive; /* Aplica a fonte a outros cabeçalhos */
+}
+
+/* Resto do seu CSS permanece o mesmo */
