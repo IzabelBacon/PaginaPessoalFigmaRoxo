@@ -2,89 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ccaef3;
-}
-
-header {
-    background-color: #6f10ff;
-    color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
-
-.container {
-    padding-top: 70px; /* Espaço para o cabeçalho fixo */
-}
-
-.perfil {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.perfil img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}
-
-.filmes, .texto {
-    background-color: white;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.filmes h3, .texto h3 {
-    margin-top: 0;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-ul li {
-    margin: 5px 0;
-}
-
-<body>
-</style>
-</head>
-<body>
-
-<header>
-    <h1>Meu Site Pessoal</h1>
-</header>
-
-<div class="perfil">
-    <img src="sua-foto.jpg" alt="Foto de Perfil">
-    <h2>Seu Nome</h2>
-</div>
-
-<div class="filmes">
-    <h3>Filmes Preferidos</h3>
-    <ul>
-        <li>Filme 1</li>
-        <li>Filme 2</li>
-        <li>Filme 3</li>
-        <!-- Adicione mais filmes aqui -->
-    </ul>
-</div>
-
-<div class="texto">
-    <h3>Texto Escolhido</h3>
-    <p>Este é um espaço para o texto que você escolher.</p>
-</div>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ccaef3;
+    background-color: #d1beff;
 }
 
 header {
@@ -115,7 +33,7 @@ header {
 }
 
 .filmes, .texto {
-    background-color: white;
+    background-color: #ffffff; /* Fundo branco */
     padding: 20px;
     margin: 20px 0;
     border-radius: 5px;
@@ -128,10 +46,17 @@ header {
 
 ul {
     padding-left: 20px;
+    list-style-type: none; /* Remove marcadores padrão */
 }
 
 ul li {
-    margin: 5px 0;
+    margin: 15px 0;
+    display: flex;
+    align-items: center; /* Alinha a imagem e o texto verticalmente */
 }
-</body>
-</html>
+
+ul li img {
+    width: 50px; /* Tamanho da imagem do filme */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Espaço entre imagem e texto */
+}
