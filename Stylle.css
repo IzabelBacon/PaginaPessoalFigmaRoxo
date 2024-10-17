@@ -9,7 +9,7 @@
     }
     header{
     background-color: #000000;
-    color: rgb(253, 203, 255);
+    color: rgb(251, 136, 255);
     width: 100%;
     padding: 20px;
     }
@@ -59,7 +59,7 @@ width: 38px;
 padding: 4px 8px;
 }
 .estudante{
-background-image: background-color(#faae43);
+background-image: background-color(#fdd49b);
 padding: 24px 0;
 }
 
@@ -72,8 +72,8 @@ display: flex;
 justify-content: space-around;
 }
 .escola{
-background-image: linear-gradient(#D6A1FF,#E4D3FF);
-color: white;
+background-image: linear-gradient(#bb61ff,#d476ff);
+color: rgb(0, 0, 0);
 display: flex;
 justify-content:center;
 padding: 24px 0;
