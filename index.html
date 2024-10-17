@@ -1,102 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <div class="perfil">
-        <img src="perfil.png" alt="Foto de Perfil" id="foto-perfil">
-        <h2>izabel</h2>
-    </div>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Page</title>
-        <link rel="stylesheet" href="styles.css">
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #d1beff;
-            }
-    
-            header {
-                background-color: #6f10ff;
-                color: #d1beff;
-                padding: 10px 0;
-                text-align: center;
-                position: fixed;
-                width: 100%;
-                top: 0;
-                left: 0;
-                z-index: 1000;
-            }
-    
-            .container {
-                padding-top: 70px; /* Espaço para o cabeçalho fixo */
-            }
-    
-            .perfil {
-                text-align: center;
-                margin: 20px 0;
-            }
-    
-            .perfil img {
-                border-radius: 50%;
-                width: 150px;
-                height: 150px;
-            }
-    
-            .filmes, .texto {
-                background-color: wd1beff;
-                padding: 20px;
-                margin: 20px 0;
-                border-radius: 5px;
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            }
-    
-            .filmes h3, .texto h3 {
-                margin-top: 0;
-            }
-    
-            ul {
-                padding-left: 20px;
-            }
-    
-            ul li {
-                margin: 5px 0;
-            }
-        </style>
-    </head>
-    <body>
-    
-    <header>
-        <h1>My Page</h1>
-    </header>
-    
-    <div class="container">
-        <div class="Cabeçario.png">
-            <img src="estrela.png" alt="Foto de Perfil" id="foto-perfil">
-            <h2>Izabel</h2>
-        </div>
-    
-        <div class="filmes">
-            <h3>Filmes Preferidos</h3>
-            <ul>
-                <li>Filme 1</li>
-                <li>Filme 2</li>
-                <li>Filme 3</li>
-                <!-- Adicione mais filmes aqui -->
-            </ul>
-        </div>
-    
-        <div class="texto">
-            <h3>Texto Escolhido</h3>
-            <p id="texto-escolhido">Este é um espaço para o texto que você escolher.</p>
-        </div>
-    </div
- charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d1beff;
+        }
+
+        header {
+            background-color: #6f10ff;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .container {
+            padding-top: 70px; /* Espaço para o cabeçalho fixo */
+        }
+
+        .perfil {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .perfil img {
+            border-radius: 50%; /* Imagem circular */
+            width: 150px;
+            height: 150px;
+        }
+
+        .filmes, .texto {
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .filmes h3, .texto h3 {
+            margin-top: 0;
+        }
+
+        ul {
+            padding-left: 20px;
+            list-style-type: none; /* Remove marcadores padrão */
+        }
+
+        ul li {
+            margin: 15px 0;
+            display: flex;
+            align-items: center; /* Alinha a imagem e o texto verticalmente */
+        }
+
+        ul li img {
+            width: 50px; /* Tamanho da imagem do filme */
+            height: auto; /* Mantém a proporção da imagem */
+            margin-right: 10px; /* Espaço entre imagem e texto */
+        }
+    </style>
 </head>
 <body>
 
@@ -104,24 +76,35 @@
     <h1>My Page</h1>
 </header>
 
-<div class="perfil">
-    <img src="perfil.png" alt="Foto de Perfil" id="foto-perfil">
-    <h2>izabel</h2>
-</div>
+<div class="container">
+    <div class="perfil">
+        <img src="perfil.png" alt="Foto de Perfil de Izabel" id="foto-perfil">
+        <h2>Izabel</h2>
+    </div>
 
-<div class="filmes">
-    <h3>Meus Filmes Preferidos</h3>
-    <ul>
-        <li></li><img src="filmeum.png" alt="filmeum" id="filmeum"><li>Esse filme é perfeito em todos os sentidos, a animação sempre bem detalhada como a de diversos outros filmes desse estúdio. O Studio Ghibli tem o cuidado de ter o começo, meio e o fim coerente nesse filme, fora que tem personagens marcantes, ainda mais para quem gosta de animações desse estilo.</li>
-        <li></li><img src="filme2.png" alt="filme2" id="filme2"><li>O melhor filme de comédia brasileira de todos os tempos, dificilmente algum outro filme brasileiro chegará ao nível desse. O filme é engraçado do início ao fim, com uma história bem elaborada e envolvente. Elenco excelente, com destaque para Matheus e Selton Mello, com atuações impecáveis. Vale muito a pena assistir.</li>
-        <li></li><img src="filme3.png" alt="filme3" id="filme3"><li>“Lisbela e o Prisioneiro” é um filme cativante que conseguiu combinar habilmente elementos de comédia e romance em um cenário nordestino pitoresco. A trama envolvente, as interpretações memoráveis e as referências culturais contribuíram para sua popularidade duradoura na cultura cinematográfica brasileira.</li>
-        <!-- Adicione mais filmes aqui -->
-    </ul>
-</div>
+    <div class="filmes">
+        <h3>Meus Filmes Preferidos</h3>
+        <ul>
+            <li>
+                <img src="filmeum.png" alt="Filme 1">
+                Esse filme é perfeito em todos os sentidos, a animação sempre bem detalhada como a de diversos outros filmes desse estúdio. O Studio Ghibli tem o cuidado de ter o começo, meio e o fim coerente nesse filme, fora que tem personagens marcantes.
+            </li>
+            <li>
+                <img src="filme2.png" alt="Filme 2">
+                O melhor filme de comédia brasileira de todos os tempos, com uma história bem elaborada e envolvente. Elenco excelente, com destaque para Matheus e Selton Mello.
+            </li>
+            <li>
+                <img src="filme3.png" alt="Filme 3">
+                “Lisbela e o Prisioneiro” é um filme cativante que combina elementos de comédia e romance em um cenário nordestino pitoresco.
+            </li>
+            <!-- Adicione mais filmes aqui -->
+        </ul>
+    </div>
 
-<div class="texto">
-    <h3>Texto Escolhido</h3>
-    <p id="texto-escolhido">Este é um espaço para o texto que você escolher.</p>
+    <div class="texto">
+        <h3>Texto Escolhido</h3>
+        <p id="texto-escolhido">Este é um espaço para o texto que você escolher.</p>
+    </div>
 </div>
 
 </body>
