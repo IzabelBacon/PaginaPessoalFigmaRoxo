@@ -77,15 +77,15 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    font-family: 'New Rocker', cursive; /* Aplica a fonte ao cabeçalho */
+    font-family: 'New Rocker', cursive; /* Aplica a fonte ao cabeçalho */<My Page>
 }
 
 h1 {
-    font-family: 'New Rocker', cursive; /* Aplica a fonte ao título */
+    font-family: 'New Rocker', cursive; /* Aplica a fonte ao título */<My Page>
 }
 
 h2, h3 {
-    font-family: 'New Rocker', cursive; /* Aplica a fonte a outros cabeçalhos */
+    font-family: 'New Rocker', cursive; /* Aplica a fonte a outros cabeçalhos */<My Page>
 }
 
 /* Resto do seu CSS permanece o mesmo */
