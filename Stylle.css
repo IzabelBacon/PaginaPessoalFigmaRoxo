@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #5400d3, #d1beff;
+    background-color: #5400d3; #d1beff;
 }
 
 header {
@@ -64,7 +64,8 @@ body {
     font-family: 'New Rocker', cursive; /* Usando New Rocker para todo o corpo */
     margin: 0;
     padding: 0;
-    background-color: #d1beff;
+    background-color: #6f10ff;
+    background-color: #;
 }
 
 header {
